@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+
+body {
+  position: relative;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+section{
+  margin-bottom: 50px;
+}
+section:last-child{
+  margin-bottom: 0;
+}
+b{
+  font-weight: 600;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 20
+}
